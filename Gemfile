@@ -31,6 +31,7 @@ group :development do
 end
 
 group :test do
+  gem 'rails-controller-testing'
   gem 'ffaker', '~> 2.15'
   gem 'capybara', '~> 2.15.4'
   gem 'selenium-webdriver'
