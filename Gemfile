@@ -34,9 +34,9 @@ group :test do
   gem 'rails-controller-testing'
   gem 'ffaker', '~> 2.15'
   gem 'capybara', '~> 2.15.4'
+  gem "database_cleaner", "~> 1.3.0"
   gem 'selenium-webdriver'
   gem "webdrivers", "5.0.0"
-  gem 'launchy', '~> 2.4.3'
   gem 'shoulda-matchers', "3.1.3"
   gem 'vcr'
   gem 'webmock'
