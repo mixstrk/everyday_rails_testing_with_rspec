@@ -27,7 +27,6 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'ffaker', '~> 2.15', require: false # for sample data in development
-  gem 'spring-commands-rspec'
 end
 
 group :test do
@@ -37,7 +36,7 @@ group :test do
   gem "database_cleaner", "~> 1.3.0"
   gem 'selenium-webdriver'
   gem "webdrivers", "5.0.0"
-  gem 'shoulda-matchers', "3.1.3"
+  gem "shoulda-matchers", "~> 4.0"
   gem 'vcr'
   gem 'webmock'
 end
